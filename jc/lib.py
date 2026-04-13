@@ -210,6 +210,7 @@ parsers: List[str] = [
     'timedatectl',
     'timestamp',
     'toml',
+    'typeset',
     'top',
     'top-s',
     'tracepath',

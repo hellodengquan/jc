@@ -1,0 +1,44 @@
+[
+  {
+    "name": "HOME",
+    "attributes": ["export"],
+    "value": "/home/user",
+    "type": "scalar"
+  },
+  {
+    "name": "COUNT",
+    "attributes": ["integer"],
+    "value": "42",
+    "type": "scalar"
+  },
+  {
+    "name": "MY_ARRAY",
+    "attributes": ["array"],
+    "value": ["apple", "banana", "cherry"],
+    "type": "array"
+  },
+  {
+    "name": "READONLY_VAR",
+    "attributes": ["readonly"],
+    "value": "cannot_change",
+    "type": "scalar"
+  },
+  {
+    "name": "EXPORT_READONLY",
+    "attributes": ["readonly", "export"],
+    "value": "exported_and_readonly",
+    "type": "scalar"
+  },
+  {
+    "name": "NORMAL_VAR",
+    "attributes": [],
+    "value": "normal value",
+    "type": "scalar"
+  },
+  {
+    "name": "PATH",
+    "attributes": ["export"],
+    "value": "/usr/local/bin:/usr/bin:/bin",
+    "type": "scalar"
+  }
+]
