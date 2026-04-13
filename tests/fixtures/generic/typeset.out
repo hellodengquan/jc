@@ -1,0 +1,7 @@
+declare -x HOME="/home/user"
+declare -i COUNT="42"
+declare -a MY_ARRAY='([0]="apple" [1]="banana" [2]="cherry")'
+declare -r READONLY_VAR="cannot_change"
+declare -rx EXPORT_READONLY="exported_and_readonly"
+declare -- NORMAL_VAR="normal value"
+declare -x PATH="/usr/local/bin:/usr/bin:/bin"
