@@ -1,0 +1,14 @@
+declare -x EXPORTED_VAR="exported value"
+declare -r READONLY_VAR="readonly value"
+declare -i INTEGER_VAR="42"
+declare -a ARRAY_VAR='([0]="item1" [1]="item2" [2]="item 3 with space")'
+declare -ix EXPORTED_INT="100"
+declare -- NORMAL_VAR="normal value"
+declare -a EMPTY_ARRAY='()'
+declare -- EMPTY_STRING=""
+declare -i ZERO_INT="0"
+declare -A COLORS='(["red"]="ff0000" ["green"]="00ff00" ["blue"]="0000ff")'
+declare -A UNQUOTED_KEYS='([red]="ff0000" [green]="00ff00")'
+declare -A MIXED_KEYS='(["quoted"]="v1" [unquoted]="v2")'
+declare -A EMPTY_ASSOC='()'
+declare -A SINGLE_ASSOC='(["key"]="value")'

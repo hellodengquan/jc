@@ -1,0 +1,72 @@
+[
+  {
+    "name": "EXPORTED_VAR",
+    "attributes": "-x",
+    "value": "exported value"
+  },
+  {
+    "name": "READONLY_VAR",
+    "attributes": "-r",
+    "value": "readonly value"
+  },
+  {
+    "name": "INTEGER_VAR",
+    "attributes": "-i",
+    "value": 42
+  },
+  {
+    "name": "ARRAY_VAR",
+    "attributes": "-a",
+    "value": ["item1", "item2", "item 3 with space"]
+  },
+  {
+    "name": "EXPORTED_INT",
+    "attributes": "-ix",
+    "value": 100
+  },
+  {
+    "name": "NORMAL_VAR",
+    "attributes": "--",
+    "value": "normal value"
+  },
+  {
+    "name": "EMPTY_ARRAY",
+    "attributes": "-a",
+    "value": []
+  },
+  {
+    "name": "EMPTY_STRING",
+    "attributes": "--",
+    "value": ""
+  },
+  {
+    "name": "ZERO_INT",
+    "attributes": "-i",
+    "value": 0
+  },
+  {
+    "name": "COLORS",
+    "attributes": "-A",
+    "value": {"red": "ff0000", "green": "00ff00", "blue": "0000ff"}
+  },
+  {
+    "name": "UNQUOTED_KEYS",
+    "attributes": "-A",
+    "value": {"red": "ff0000", "green": "00ff00"}
+  },
+  {
+    "name": "MIXED_KEYS",
+    "attributes": "-A",
+    "value": {"quoted": "v1", "unquoted": "v2"}
+  },
+  {
+    "name": "EMPTY_ASSOC",
+    "attributes": "-A",
+    "value": {}
+  },
+  {
+    "name": "SINGLE_ASSOC",
+    "attributes": "-A",
+    "value": {"key": "value"}
+  }
+]
