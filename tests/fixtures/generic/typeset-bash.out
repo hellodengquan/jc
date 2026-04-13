@@ -1,0 +1,5 @@
+declare -- NOATTR="noattr-value"
+declare -- NOATTR2="test2"
+declare -xr MYVAR="hello"
+declare -i MYINT="42"
+declare -a MYARR='([0]="a" [1]="b" [2]="c")'

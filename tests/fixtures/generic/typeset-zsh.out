@@ -1,0 +1,5 @@
+typeset SIMPLE="testvalue"
+export -r MYVAR=hello
+typeset -i MYINT=42
+typeset -a MYARR=( a b c )
+typeset -A MYASSOC=( [key1]=val1 [key2]=val2 )
