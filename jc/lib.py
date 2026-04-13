@@ -212,6 +212,7 @@ parsers: List[str] = [
     'toml',
     'top',
     'top-s',
+    'typeset',
     'tracepath',
     'traceroute',
     'traceroute-s',

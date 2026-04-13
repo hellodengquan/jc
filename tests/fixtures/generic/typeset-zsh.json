@@ -1,0 +1,34 @@
+[
+  {
+    "name": "SIMPLE",
+    "attributes": "",
+    "value": "testvalue"
+  },
+  {
+    "name": "MYVAR",
+    "attributes": "xr",
+    "value": "hello"
+  },
+  {
+    "name": "MYINT",
+    "attributes": "i",
+    "value": 42
+  },
+  {
+    "name": "MYARR",
+    "attributes": "a",
+    "value": [
+      "a",
+      "b",
+      "c"
+    ]
+  },
+  {
+    "name": "MYASSOC",
+    "attributes": "A",
+    "value": {
+      "key1": "val1",
+      "key2": "val2"
+    }
+  }
+]
