@@ -213,6 +213,7 @@ parsers: List[str] = [
     'top',
     'top-s',
     'tracepath',
+    'typeset',
     'traceroute',
     'traceroute-s',
     'tune2fs',
