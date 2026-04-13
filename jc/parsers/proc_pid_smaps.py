@@ -245,7 +245,7 @@ def _process(proc_data: List[Dict]) -> List[Dict]:
 
         if 'VmFlags' in entry:
             entry['VmFlags'] = entry['VmFlags'].split()
-            entry['VmFlags_pretty'] = [vmflags_map[x] for x in entry['VmFlags']]
+            entry['VmFlags_pretty'] = [vmflags_map[x] for x in entry['VmFlags'] if x in vmflags_map]
 
     return proc_data
 
